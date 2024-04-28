@@ -68,7 +68,6 @@ ol {
 .search-form__fieldset {
 	display: flex;
 	flex-direction: column;
-	flex: 0 1 225px;
 	gap: 5px;
 }
 
@@ -136,6 +135,7 @@ label .visually-hidden {
 	display: inline-block;
 	cursor: pointer;
 	z-index: 0;
+	width: 225px;
 }
 
 .search-form__pseudo-checkbox {
@@ -148,9 +148,8 @@ label .visually-hidden {
 	z-index: 0;
 }
 
-
 .search-form__label-text {
-	margin-left: 30px;
+	margin-left: 25px;
 	line-height: 20px;
 }
 
@@ -164,7 +163,10 @@ label .visually-hidden {
 	background-color: white;
 	z-index: 0;
 }
-
+.search-form__checkbox-list{
+	display: flex;
+	gap: 15px;
+}
 .button {
 	display: flex;
 	background-color: #000000;
@@ -258,7 +260,6 @@ label .visually-hidden {
 .content__video-card {
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	flex-direction: row;
 }
 
