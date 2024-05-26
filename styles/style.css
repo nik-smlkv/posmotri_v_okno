@@ -128,7 +128,6 @@ ol {
 	font-weight: 400;
 	line-height: normal;
 }
-
 .visually-hidden {
 	position: absolute;
 	inline-size: 1px;
@@ -140,6 +139,7 @@ ol {
 }
 
 .search-form__label {
+	vertical-align: middle;
 	position: relative;
 	display: flex;
 	cursor: pointer;
