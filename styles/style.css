@@ -85,7 +85,6 @@ ol {
 
 .search-form__textfield {
 	color: #fff;
-	opacity: 0.7;
 	font-family: "Fira Sans Condensed", "Times New Roman", sans-serif;
 	font-size: 18px;
 	font-style: normal;
@@ -139,6 +138,7 @@ ol {
 }
 
 .search-form__label {
+	align-items: center;
 	vertical-align: middle;
 	position: relative;
 	display: flex;
@@ -256,10 +256,11 @@ ol {
 }
 
 .content__list {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	overflow-y: auto;
-	max-height: 298px;
+	height: 298px;
 }
 
 .content__card-link {
@@ -271,10 +272,9 @@ ol {
 .content__card-link:hover {
 	text-decoration: underline;
 	color: #FFF;
-	background-color: #545050;
 }
 
-.content__card-link:active {
+.content__card-link_current {
 	background-color: #545050;
 }
 
@@ -326,5 +326,6 @@ ol {
 .content__video-card-thumbnail {
 	max-width: 194px;
 	object-fit: cover;
+	object-position: center;
 	height: auto;
 }
